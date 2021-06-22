@@ -60,9 +60,9 @@ public class RadixSort {
         final long timeEnd = System.nanoTime();
 
         // Sortiertes Array Zeilenweise auf dem Bildschirm ausgeben
-        //for (int i : A) {
-        //    System.out.println(i);
-        //}
+        for (int i : A) {
+            System.out.println(i);
+        }
 
         // Laufzeit ausgeben
         System.out.println("Laufzeit des Sortieralgorithmus: " + (timeEnd - timeStart) + " Nanosek.");
